@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GITHUB commands used</title>
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="/index.html" id="nav">Main</a>
+            </nav>
+        </header>
+        <main>
+            <h1>GITHUB commands used</h1>
+            <div>
+                <ul>
+                    <li><span>git init </span>- To start repo for project/folder.</li>
+                    <li><span>git add . </span>- To add ALL changes (will be displayed in Staged changes).</li>
+                    <li><span>git add <span class="span_custom">./pages/test.html</span></span>- To add specific file only. </li>
+                    <li><span>git restore --staged <span class="span_custom">test.html</span></span>- To delete changes from STAGED.</li>
+                    <li><span>git commit –m <span class="span_custom">"add here message about what changes was actually done to this file"</span></span>- Commit – to overwrite last code version (checkpoint). Add mandatory note – about what was actually changed in your code. Now you commit ready to be sent to git.</li>
+                    <li><span>git remote add origin <span class="span_custom">https://github.com/xxxxxxx</span></span>- To link local repo with remote (located on githhub repo): go to github -> copy url of your repo, enter command. </li>
+                    <li><span>git push</span>- To push code to remote repo.</li>
+                    <li><span>git pull</span>- To get all changes from remote repo to local repo.</li>
+                    <li><span>git checkout main</span>- To switch between brunches.</li>
+                    <li><span>git checkout –b <span class="span_custom">dev </span></span>- To create and switch to a new branch.</li>
+                    <li><span>git remote remove origin </span>- to fix error "fatal: remote origin already exists". Once done - re-add origin using comand: git remote add origin [url].git</li>
+                </ul>
+            </div>
+            <div>
+                <sub>
+                    *highlighted in yellow - custom pages/urls, etc
+                </sub>
+            </div>
+        </main>
+    </body>
+</html>
