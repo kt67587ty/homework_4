@@ -1,0 +1,51 @@
+* {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 14px;
+}
+.example {
+    display:block;
+    background-color: #F6F7F1;
+    width: 1000px;
+}
+.comment {
+    color: grey;
+}
+#tag {
+    margin-left: 30px;
+}
+#css_other {
+    margin-left: 100px;
+    color: blue;
+}
+#css {
+    margin-left: 50px;
+}
+[class^="h4_name"] {
+    color: #5B6C71;
+    background-color: #F8F5F1;
+    font-weight: bold;
+    font-size: 20px;
+    width: 400px;
+    margin-top: px;
+}
+[class^="h4_syn"] {
+    background-color: #F6C26C;
+    width: 300px;
+}
+p {
+    font-style: italic;
+}
+ul li {
+    color: #5F5C55;
+    font-style: italic;
+}
+[class^="li_attr"] {
+    background-color: yellow;
+}
+.class1 {
+    font-style: italic;
+    font-size: 20px;
+}
+.class2 {
+    color: #4e8b1c;
+}
